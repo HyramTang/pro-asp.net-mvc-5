@@ -26,3 +26,11 @@
         </tr>
     </tbody>
 </table>
+
+<div data-discount="@ViewBag.ApplyDiscount" dataexpress="@ViewBag.ExpressShip" data-supplier="@ViewBag.Supplier">
+    The containing element has data attributes
+</div>
+
+Discount:<input type="checkbox" checked="@ViewBag.ApplyDiscount" />
+Express:<input type="checkbox" checked="@ViewBag.ExpressShip" />
+Supplier:<input type="checkbox" checked="@ViewBag.Supplier" />
